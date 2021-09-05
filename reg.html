@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <title>Admission Management System</title>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+  <div class="container-fluid headerbox headerdiv headerleft" id="header-container">
+    <div class="row">
+      <div class="col-sm-4 img-responsive rounded float-left" id="img1"> <img src="admission-management-system-500x500.png"
+          width="127" height="92" class="d-inline-block align-top" alt=""> </div>
+      <div class="text-center col-sm-4 img-responsive">
+        <a href="index.html">
+
+          <img src="Screenshot (6).png" width="273" height="77"
+            class="d-inline-block align-top" alt=""></div>
+        </a>
+      <div class="col-sm-4 img-responsive rounded mx-auto d-block float-right"><img src="download"
+          class="rounded float-right" alt=""></div>
+    </div>
+  </div>
+  <!-- <div class="row">
+    <div class="col"> -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark " role="navigation">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+            &#9776;
+          </button>
+          <div class="collapse navbar-collapse" id="exCollapsingNavbar">
+            <ul class="nav navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Admission</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="be.html">BE/BTech</a>
+                  <a class="dropdown-item" href="pharmacy.html">Pharmacy</a>
+                  <a class="dropdown-item" href="d2d.html">Diploma to Degree</a>
+                  <a class="dropdown-item" href="mba.html">MBA/MCA</a>
+    
+                </div>
+              </li>
+              <li class="nav-item"><a href="contactus.html" target="_blank" class="nav-link">Contact Us</a></li>
+              <!-- <li class="nav-item"><a href="#" class="nav-link"></a></li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Downloads</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" target="_blank" href="https://gujacpc.nic.in/RegSys/File/GetFile?FileId=5&LangId=P">Admission Steps</a>
+                  <a class="dropdown-item" target="_blank" href="https://gujacpc.nic.in/RegSys/File/GetFile?FileId=6&LangId=P">Information Brochure</a>
+                  <a class="dropdown-item" target="_blank" href="https://gujacpc.nic.in/RegSys/File/GetFile?FileId=7&LangId=P">General Instructions</a>
+       
+                </div>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav flex-row justify-content-between ml-auto">
+              <li class="nav-item order-2 order-md-1"><a href="#" class="nav-link" title="settings"><i
+                    class="fa fa-cog fa-fw fa-lg"></i></a></li>
+              <li class="dropdown order-1">
+                <button type="button" id="dropdownMenu1" data-toggle="dropdown"
+                  class="btn  btn-primary dropdown-toggle">Login <span class="caret"></span></button>
+                <ul class="dropdown-menu dropdown-menu-right mt-2">
+                  <li class="px-4 py-3  ">
+                    <form class="form" role="form">
+                      <div class="form-group">
+                        <input id="emailInput" placeholder="User Id" class="form-control form-control-sm" type="text"
+                          required="">
+                      </div>
+                      <div class="form-group">
+                        <input id="passwordInput" placeholder="Password" class="form-control form-control-sm" type="text"
+                          required="">
+                      </div>
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                      </div>
+                      <div class="form-group text-center">
+                        <small><a href="#" data-toggle="modal" data-target="#modalPassword">Forgot password?</a></small>
+                      </div>
+                    </form>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <div id="modalPassword" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Forgot password</h3>
+              <button type="button" class="close font-weight-light" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body">
+              <p>Reset your password..</p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+              <button class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <div class="container shadow  bg-white rounded border border-dark mt-5 rounded shadow-lg">
+    <div class="row">
+      <div class="col-sm-7 mt-3 text-center">
+        <h4>Registered Candidates Sign-In</h4>
+        <div class="login mt-5 pr-5">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+          <form action="#">
+            <div class="form-group row mt-3 ">
+              <label for="select" class="col-4 col-form-label">Counselling</label>
+              <div class="col-8">
+                <select id="select" name="select" class="custom-select">
+                  <option value="rabbit">--Select--</option>
+                  <option value="duck">ACPC Gujarat-Common Registration 2021</option>
+
+                </select>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="text" class="col-4 col-form-label" required>User Id</label>
+              <div class="col-8">
+                <input id="text" name="text" type="text" class="form-control">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="text1" class="col-4 col-form-label" required aria-required="true">Password</label>
+              <div class="col-8">
+                <input id="text1" name="text1" type="password" class="form-control">
+              </div>
+            </div>
+
+
+
+
+            <div class=" col-sm-12 mt-2 ">
+              <button name="submit" type="submit" class="shadow btn btn-primary">Sign In</button>
+
+            </div>
+
+
+          </form>
+
+          <div class="col-sm-12 mt-3"></div>
+          <button type="button" class="shadow btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">New
+            Registration</button>
+
+          <!-- The Modal -->
+          <div class="modal " id="myModal">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title text-primary">Candidate's Consent</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+
+                  <h6 class="text-left">
+                    I hereby agree to the following terms and conditions governing the admission process of Counselling:
+                  </h6>
+                  <ol start="1" class="text-justify">
+                    <li>I have gone through and understood the contents of Information Brochure and eligibility criteria
+                      prescribed therein. I shall abide by rules and admission process as specified by the Admission
+                      Committee for Professional Courses (ACPC) Gujarat.</li>
+                    <li>I know that during verification of documents at the time of reporting, if any discrepancy is
+                      found in original documents, including category, sub-category, date of birth etc. then my
+                      candidature will be cancelled.</li>
+                    <li> I know that the personal information provided by me is genuine and authentic.</li>
+                    <li>I declare that I will not disclose or share the password with anybody. I understand that I am
+                      solely responsible for safe guarding my password and neither Admission Committee for Professional
+                      Courses (ACPC) Gujarat nor NIC is responsible for misuse of my password.</li>
+                    <li>I am aware of the fee, bond etc conditions of the Institution that I am interested in and know
+                      that Admission Committee for Professional Courses (ACPC) Gujarat has no role to play in that.</li>
+                  </ol>
+
+                  <h6 class="text-left">
+                    Instruction Regarding MBA-MCA Registration Charges</h6>
+                  <ol start="1" class="text-justify">
+                    <li>For applying MBA course, Registration Charge is Rs.350/-</li>
+                    <li>For applying MCA course, Registration Charge is Rs.350/-</li>
+                    <li> For applying MBA and MCA both courses simultaneously (MBC), registration Charge is Rs.500/-
+                    </li>
+
+                  </ol>
+
+                  <h6 class="text-left text-danger">
+
+
+                    You must accept or decline the agreement to process further.</h6>
+
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <label class="form-check-label" for="inlineRadio1">I Agree</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="form-check-label" for="inlineRadio2">I Don't Agree</label>
+                    </div>
+                  
+                    <!-- Modal footer -->
+                    <div class="modal-footer ">
+                      <!-- <a class="text-decoration-none " target="_blank" style="color: white;" href="newreg.html">
+
+                        <button type="button" class="btn btn-danger align-center" data-dismiss="modal">Submit & Next</button>
+                      </a> -->
+                      <a class="text-decoration-none " style="color: white;" href="newreg.html">
+                        <button type="button" class="btn btn-primary btn-lg btn-block shadow">Submit & Next 
+                        </button>
+                        </a>
+                    </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-5 mt-0 rounded " style=" color: white; background-image: url(https://admissions.nic.in/guj/gujccounselling/Image/logininstructionbg.png);
+            background-position-x: center;
+            background-position-y: top;
+            background-size: cover;        
+            background-attachment: initial;
+            background-origin: initial;
+            background-clip: initial;
+            background-color: initial;
+            background-size: cover;
+            background-position: top center;
+            margin-top: -10px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            min-height: 545px;;">
+        <div class="row border-bottom border-danger">
+          <h4 class="h4 col-sm-5 pl-4 pt-4">Important Instructions</h4>
+        </div>
+
+        <div id="ctl00_ContentPlaceHolder1_Panel1">
+
+          <div class="col-sm-12">
+            <div class="form-group">
+
+            </div>
+          </div>
+
+          <ul class="list-unstyled inst pl-3 text-white"
+            style=" list-style-image: url(/Imag/arrowrightwhite.png); font-size: 15px; color: #000;">
+            <li class="mb-3">
+              Confidentiality of Password is solely responsibility of the candidate and all care
+              must be taken to protect the password. </li>
+            <li class="mb-3">For security reasons, after finishing your work, kindly click the LOGOUT button
+              and close all the windows related to your session. </li>
+            <li class="mb-3">Candidates are advised to keep changing the Password at frequent intervals.</li>
+            <li class="mb-3">Never share your password and do not respond to any mail which asks you for your
+              Login-ID/Password. </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
